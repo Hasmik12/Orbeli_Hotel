@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Palatino:100,200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Outfit:100,200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+        <title>Hotel Orbeli</title>
+    </head>
+    <body>
+        <div class="wrapper-outer">
+            <div class="wrapper">
+                <header class="header">
+                    <div class="header__container _container">
+                        <div class="header__top">
+                            <div class="header__menu">
+                                <span class="header-close-icon"></span>
+                                <span class="header__menu-text">Menu</span>
+                            </div>
+                            <div class="header__logo">
+                                <a class="header__logo-content" href="index.html">
+                                    <img src="img/logo.svg" alt="Logo">
+                                </a>
+                            </div>
+                            <div class="header__right">
+                                <div class="header__phone">
+                                    <span class="header__phone-icon">
+                                        <img src="img/icons/phone.svg" alt="Phone">
+                                    </span>
+                                    <img src="">
+                                    <span>+374 96 300 664</span>
+                                </div>
+                                <div class="header__language language">
+                                    <a href="#" class="current-language">
+                                        <span>ENG</span>
+                                        <img src="img/roomsInner/arrow.svg" class="arrow" alt="arrow">
+                                   
+                                    </a>
+                                    <ul class="language__list">
+                                        <li class="language__list-item">
+                                            <a href="#"> հայ</a>
+                                        </li>
+                                        <li class="language__list-item">
+                                            <a href="#">Рус</a>
+                                        </li>
+                                        <li class="language__list-item">
+                                            <a href="#">ENG</a>
+                                        </li>
+                                    </ul>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__nav">
+                            <nav class="nav">
+                                <ul class="nav-list">
+                                    <li class="nav__item">
+                                        <a href="aboutUs.html" class="nav__link">
+                                            <div class="nav__item-info">
+                                                <div class="nav__item-img">
+                                                    <div class="img-container">
+                                                        <img src="img/menu/img2.jpg" alt="About Hotel">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="nav__item-name">About Hotel</div>
+                                        </a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="rooms.html" class="nav__link">
+                                            <div class="nav__item-info">
+                                                <div class="nav__item-img">
+                                                    <div class="img-container">
+                                                        <img src="img/menu/img7.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="nav__item-name">Rooms</div>
+                                        </a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="" class="nav__link">
+                                            <div class="nav__item-info">
+                                                <div class="nav__item-img">
+                                                    <div class="img-container">
+                                                        <img src="img/menu/img1.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="nav__item-name">Special Offers</div>
+                                        </a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="" class="nav__link">
+                                            <div class="nav__item-info">
+                                                <div class="nav__item-img">
+                                                    <div class="img-container">
+                                                        <img src="img/menu/img3.jpg" alt="Our Services">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="nav__item-name">Our Services</div>
+                                        </a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="" class="nav__link">
+                                            <div class="nav__item-info">
+                                                <div class="nav__item-img">
+                                                    <div class="img-container">
+                                                        <img src="img/menu/img4.jpg" alt="Kitchen & Dinning">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="nav__item-name">Kitchen & Dinning</div>
+                                        </a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="" class="nav__link">
+                                            <div class="nav__item-info">
+                                                <div class="nav__item-img">
+                                                    <div class="img-container">
+                                                        <img src="img/menu/img5.jpg" alt="Gallery">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="nav__item-name">Gallery</div>
+                                        </a>
+                                    </li>
+                                    <li class="nav__item header__phone header__phone-mobile">
+                                        <span class="header__phone-icon">
+                                            <img src="img/icons/phone.svg" alt="Phone">
+                                        </span>
+                                        <img src="">
+                                        <span>+374 96 300 664</span>
+                                    </li>
+                                </ul>
+    
+                            </nav>
+                        </div>
+                    </div>
+                </header>
+                <main>
+                   <div class="rooms__inside inside">
+                       <div class="rooms__inside-body">
+                            <div class="rooms__inside-container">
+                                <div class="bk-slider">
+                                    <div class="swiper inside__slider">
+                                        <div class="swiper-wrapper  inside__slider-wrapper">
+                                            <div class="swiper-slide  inside__slider-slide">
+                                                <div class="inside__slider-block">
+                                                    <!-- <div class="img-container"> -->
+                                                    <img src="img/rooms/sliderImg/img1.jpg" alt="Room">
+                                                    <!-- </div> -->
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide  inside__slider-slide">
+                                                <div class="inside__slider-block">
+                                                    <!-- <div class="img-container"> -->
+                                                    <img src="img/rooms/sliderImg/img2.jpg" alt="Room">
+                                                    <!-- </div> -->
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide  inside__slider-slide">
+                                                <div class="inside__slider-block">
+                                                    <!-- <div class="img-container"> -->
+                                                    <img src="img/rooms/sliderImg/img1.jpg" alt="Room">
+                                                    <!-- </div> -->
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide  inside__slider-slide">
+                                                <div class="inside__slider-block">
+                                                    <!-- <div class="img-container"> -->
+                                                    <img src="img/rooms/sliderImg/img2.jpg" alt="Room">
+                                                    <!-- </div> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination swipper-bullet"></div>
+                                            <!-- Add Arrows -->
+                                        <div class="swiper-button-next">
+                                            <img src="img/icons/right-arrow.svg" alt="Left arrow">
+                                        </div>
+                                        <div class="swiper-button-prev">
+                                            <img src="img/icons/left-arrow.svg" alt="Right arrow">
+                                        </div>
+                                    </div>
+                                    <!-- Add Pagination -->
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                            <div class="special-offer__filter filter-block room-filter">
+                                <div class="filter-block__content _container rooms-filter__block">
+                                    <h4 class="filter-block__title">Deluxe, Guest room, 1 King</h4>
+                                    <div class="filter-block__nav filter-nav">
+                                        <div class="filter-nav__item">
+                                            <button class="filter-nav__btn">
+                                                <img src="img/icons/persons.svg" alt="person">
+                                                <span>person</span>
+                                                <img src="img/icons/arrow.svg"  class="arrow" alt="arrow">
+                                            </button>
+                                            <div class="fillter-nav__dropdown dropdown-block">
+                                                <div class="dropdown-block__item">
+                                                    <span class="name">Adults</span>
+                                                    <div class="quantity">
+                                                        <button type="button" class="quantity__minus quantity__change">-</button>
+                                                        <input class="number" type="text" autocomplete="off" value="0">
+                                                        <button type="button" class="quantity__plus quantity__change">+</button>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown-block__item">
+                                                    <span class="name">Kids</span>
+                                                    <div class="quantity">
+                                                        <button type="button" class="quantity__minus quantity__change">-</button>
+                                                        <input class="number" type="text" autocomplete="off" value="0">
+                                                        <button type="button" class="quantity__plus quantity__change">+</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="filter-nav__item filter__date">
+                                        <button class="filter-nav__btn">
+                                            <img src="img/icons/date.svg" alt="Date">
+                                            <span>check in & out</span>
+                                            <img src="img/icons/arrow.svg"  class="arrow" alt="arrow">
+                                        </button>
+                                        <div class="fillter-nav__dropdown dropdown-block">
+                                                <div class="dropdown-block__item">
+                                                    <span class="name">Adults</span>
+                                                    <div class="quantity">
+                                                    <button type="button" class="quantity__minus quantity__change">-</button>
+                                                    <input class="number" type="text" autocomplete="off" value="0">
+                                                    <button type="button" class="quantity__plus quantity__change">+</button>
+                                                </div>
+                                                </div>
+                                                <div class="dropdown-block__item">
+                                                    <span class="name">Kids</span>
+                                                    <div class="quantity">
+                                                        <button type="button" class="quantity__minus quantity__change">-</button>
+                                                        <input class="number" type="text" autocomplete="off" value="0">
+                                                        <button type="button" class="quantity__plus quantity__change">+</button>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        </div>
+                                        <div class="filter-nav__item filter__rooms">
+                                        <button class="filter-nav__btn">
+                                            <img src="img/icons/rooms.svg" alt="Rooms">
+                                            <span>rooms</span>
+                                            <img src="img/icons/arrow.svg"  class="arrow" alt="arrow">
+                                        </button>
+                                        <div class="fillter-nav__dropdown dropdown-block">
+                                                <div class="dropdown-block__item">
+                                                    <span class="name">Adults</span>
+                                                    <div class="quantity">
+                                                    <button type="button" class="quantity__minus quantity__change">-</button>
+                                                    <input class="number" type="text" autocomplete="off" value="0">
+                                                    <button type="button" class="quantity__plus quantity__change">+</button>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown-block__item">
+                                                    <span class="name">Kids</span>
+                                                    <div class="quantity">
+                                                        <button type="button" class="quantity__minus quantity__change">-</button>
+                                                        <input class="number" type="text" autocomplete="off" value="0">
+                                                        <button type="button" class="quantity__plus quantity__change">+</button>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        </div>
+                                        <input class="filter-nav__button" type="submit" value="book now">
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                      
+                   </div>
+                    <section class="rooms__info">
+                        <div class="rooms__info-container _container">
+                            <div class="rooms__info-list">
+                                <div class="rooms__info-item">
+                                     <div class="rooms__img">
+                                         <img src="img/rooms/bed.svg" alt="bed">
+                                     </div>
+                                     <div class="rooms__info-title">Bed & Beddings</div>
+                                     <div class="rooms__notallowed-info">
+                                        <div>Maximum Occupancy: 2</div>
+                                        <div>1 King</div>
+                                        <div>Rollaway beds not permitted</div>
+                                        <div>Cribs not permitted</div>
+                                        <div> Featherbed, and Duvet</div>
+                                     </div>
+                                </div>
+                                <div class="rooms__info-item">
+                                   <div class="rooms__img">
+                                       <img src="img/rooms/bathroom.svg" alt="bathroom.">
+                                   </div>
+                                   <div class="rooms__info-title">Bath & Bathroom</div>
+                                   <div class="rooms__notallowed-info">
+                                      <div>Marble bathroom</div>
+                                      <div>Bathtub</div>
+                                      <div>Hair dryer</div>
+                                      <div>Slippers</div>
+                                   </div>
+                               </div>
+                               <div class="rooms__info-item">
+                                   <div class="rooms__img">
+                                       <img src="img/rooms/kitchen.svg" alt="kitchen">
+                                   </div>
+                                   <div class="rooms__info-title">Food & Beverages</div>
+                                   <div class="rooms__notallowed-info">
+                                      <div>Room service, 24-Hour</div>
+                                      <div> Breakfast ( 9:00-12:00 )</div>
+                                      <div> Bottled water, complimentary</div>
+                                      <div> Coffee maker / tea service</div>
+                                      <div> Mini-bar, for a fee</div>
+                                   </div>
+                               </div>
+                                <div class="rooms__info-item">
+                                     <div class="rooms__img">
+                                         <img src="img/rooms/entertaiment.svg" alt="Entertaiment">
+                                     </div>
+                                     <div class="rooms__info-title">Entertaiment</div>
+                                     <div class="rooms__notallowed-info">
+                                       <div>TV features: remote control,
+                                        flat screen</div> 
+                                       <div>Cable/satellite</div> 
+                                       <div> International cable/</div>
+                                       <div> Phones</div>
+                                       <div> High speed Internet ( free )</div>
+                                     </div>
+                                </div>
+                            </div>
+                            <div class="rooms__info-text">
+                                <div class="rooms__text-item info-block">
+                                    <div class="info-block__title">
+                                        Useful Information
+                                    </div>
+                                    <div class="info-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                </div>
+                                <div class="rooms__text-item info-block special-info">
+                                    <div class="info-block__title">
+                                        Special Offer
+                                        <img class="special-img" src="img/icons/special.svg" alt="special">
+                                    </div>
+                                    <div class="info-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="other__room">
+                        <div class="other__room-container _container">
+                            <div class="other__room-body">
+                                <div class="title-block">
+                                    <h1 class="other__room-title title">
+                                        Other Rooms
+
+                                        <div class="swiper-button__block">
+                                            <div class="swiper-button-next slider-arrow__next">
+                                                <img src="img/icons/right-arrow.svg">
+                                            </div>
+                                            <div class="swiper-button-prev slider-arrow__prev">
+                                                <img src="img/icons/left-arrow.svg">
+                                            </div>
+                                        </div>
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="swiper rooms-slider">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="rooms-slider__block">
+                                            <div class="rooms-slider__img">
+                                                <div class="img-container">
+                                                        <img src="img/rooms/otherRoom1.jpg" alt="Other Room">
+                                                </div>
+                                                <div class="rooms-slider__btn-block">
+                                                    <div class="rooms-slider__btn">
+                                                        <a class="view-room" href="#">View room</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="rooms-slider__text">
+                                                Deluxe, Guest room, 1 King
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="rooms-slider__block">
+                                            <div class="rooms-slider__img">
+                                                <div class="img-container">
+                                                    <img src="img/rooms/otherRoom1.jpg" alt="Other Room">
+                                                </div>
+                                                <div class="rooms-slider__btn-block">
+                                                    <div class="rooms-slider__btn">
+                                                    <a class="view-room" href="#">View room</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="rooms-slider__text">
+                                            Deluxe, Guest room, 1 King
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="rooms-slider__block">
+                                            <div class="rooms-slider__img">
+                                                <div class="img-container">
+                                                    <img src="img/rooms/otherRoom1.jpg" alt="Other Room">
+                                                </div>
+                                                <div class="rooms-slider__btn-block">
+                                                    <div class="rooms-slider__btn">
+                                                    <a class="view-room" href="#">View room</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="rooms-slider__text">
+                                            Deluxe, Guest room, 1 King
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="rooms-slider__block">
+                                            <div class="rooms-slider__img">
+                                                <div class="img-container">
+                                                    <img src="img/rooms/otherRoom1.jpg" alt="Other Room">
+                                                </div>
+                                                <div class="rooms-slider__btn-block">
+                                                    <div class="rooms-slider__btn">
+                                                    <a class="view-room" href="#">View room</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="rooms-slider__text">
+                                            Deluxe, Guest room, 1 King
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="rooms-slider__block">
+                                            <div class="rooms-slider__img">
+                                                <div class="img-container">
+                                                    <img src="img/rooms/otherRoom1.jpg" alt="Other Room">
+                                                </div>
+                                                <div class="rooms-slider__btn-block">
+                                                    <div class="rooms-slider__btn">
+                                                    <a class="view-room" href="#">View room</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="rooms-slider__text">
+                                            Deluxe, Guest room, 1 King
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="rooms-slider__block">
+                                            <div class="rooms-slider__img">
+                                                <div class="img-container">
+                                                    <img src="img/rooms/otherRoom1.jpg" alt="Other Room">
+                                                </div>
+                                                <div class="rooms-slider__btn-block">
+                                                    <div class="rooms-slider__btn">
+                                                    <a class="view-room" href="#">View room</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="rooms-slider__text">
+                                            Deluxe, Guest room, 1 King
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination swipper-bullet"></div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </div>
+            <footer class="footer">
+                <div class="footer__container _container">
+                    <div class="footer__row">
+                        <div class="footer__info">
+                            <a class="footer__logo" href="#">
+                                <img src="img/logo.svg" alt="logo">
+                            </a>
+                            <ul class="social footer__social">
+                                <li class="social-item">
+                                    <a href="#" class="soacial-link">
+                                         <img src="img/Social/twiter.svg" alt="twitter">
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="#" class="soacial-link">
+                                        <img src="img/Social/gmail.svg" alt="gmail">
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="#" class="soacial-link">
+                                         <img src="img/Social/facebook.svg" alt="Facebook">
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="#" class="soacial-link">
+                                         <img src="img/Social/instagram.svg" alt="instagram">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__nav">
+                            <div class="footer-nav__column">
+                                <div class="footer__nav-label">Quick Links</div>
+                                <ul class="footer-nav__list">
+                                    <li class="footer-nav__item">
+                                        <a href="aboutUs.html">About Us</a>
+                                    </li>
+                                    <li class="footer-nav__item">
+                                        <a href="#">Booking</a>
+                                    </li>
+                                    <li class="footer-nav__item">
+                                        <a href="#">FAQ</a>
+                                    </li>
+                                    <li class="footer-nav__item">
+                                        <a href="#">Terms & Conditions</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-nav__column addres-block">
+                                <div class="footer__nav-label">Adress</div>
+                                <ul class="footer-nav__list">
+                                    <li class="footer-nav__item">65/2, Baghramyan Ave. 
+                                        0033 – Yerevan
+                                        Republic of Armenia</li>
+                                </ul>
+                            </div>
+                            <div class="footer-nav__column">
+                                <div class="footer__nav-label">Contacts</div>
+                                <ul class="footer-nav__list">
+                                    <li class="footer-nav__item">
+                                        <a href="tel:+ 374 93 300 664">+ 374 93 300 664</a></li>
+                                    <li class="footer-nav__item">
+                                        <a href="mailto:orbeliaparthotel@gmail.com">orbeliaparthotel@gmail.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__copyright">
+                        Designed & Developed by E-Works
+                    </div>
+                </div>
+            </footer> 
+        </div>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script src="javascript.js"></script>
+    </body>
+</html>
